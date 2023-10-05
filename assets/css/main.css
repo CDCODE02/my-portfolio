@@ -1355,6 +1355,28 @@ body {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
+.work-request--options .options-c {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.work-request--options .options-d {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
 .work-request--options .options-b {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1459,7 +1481,9 @@ body {
     justify-content: space-around;
   }
   .work-request--options .options-a,
-  .work-request--options .options-b {
+  .work-request--options .options-b,
+  .work-request--options .options-c,
+  .work-request--options .options-d {
     display: block;
     width: auto;
   }
